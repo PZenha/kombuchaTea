@@ -36,7 +36,7 @@ const Shop: FC = () => {
                                             >
                                                 <h2 style={{ fontWeight: "bold" }}>{product.name}</h2>
                                                 <h3>Preço: {product.price} €</h3>
-                                                <h4>{product.description}</h4>
+                                                <h4>Quantidade: {product.description}</h4>
                                             </Card>
                                         </Link>
                                         <Button onClick={addedToCart}>Adicionar ao carrinho <ShoppingCartOutlined /></Button>

@@ -1,25 +1,9 @@
 .home {
-  background-image: url('../../assets/tea.jpg');
-  opacity: 0.8;
-  height: 60vh;
-  background-position: 50% 80%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.title {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  color: black;
-  top: 40%;
-}
-
-.title span {
-  background-color: rgb(34, 23, 18);
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-  color: white;
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
 }

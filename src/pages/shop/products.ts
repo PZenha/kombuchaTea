@@ -1,75 +1,93 @@
 export const PRODUCTS = [
   {
-    id: 'nkcq',
-    name: 'beer',
-    price: 1.3,
-    description: 'A really nice crafted beer',
+    id: 'ix6g',
+    name: 'Original',
+    price: 1.4,
+    description: '250 mL',
     longDesc:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    img: require('../../assets/beer.jpg'),
+    img: require('../../assets/Original_250.jpg'),
+  },
+  {
+    id: 'nkcq',
+    name: 'Frutos Silvestre',
+    price: 1.4,
+    description: '250 mL',
+    longDesc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    img: require('../../assets/FrutosSilvestres_250.jpg'),
   },
   {
     id: 'jdmu',
-    name: 'Bottle',
-    price: 8,
-    description: 'Epah é bom',
+    name: 'Gengibre + Limão',
+    price: 1.4,
+    description: '250 mL',
     longDesc:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    img: require('../../assets/bottle.jpg'),
+    img: require('../../assets/GengibreLimao_250.jpg'),
   },
   {
     id: 'ih9z',
-    name: 'Watermelon drink',
-    price: 5,
-    description: 'Watermelon smothie',
+    name: 'Hibisco',
+    price: 1.4,
+    description: '250 mL',
     longDesc:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    img: require('../../assets/watermelon.jpg'),
-  },
-  {
-    id: 'ix6g',
-    name: 'Orange Juice',
-    price: 4,
-    description: 'Refreshing juice',
-    longDesc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    img: require('../../assets/laranja-copo.jpg'),
+    img: require('../../assets/Hibisco_250.jpg'),
   },
   {
     id: '3f68',
-    name: 'Orange Gin',
-    price: 5.5,
-    description: 'A great Gin',
+    name: 'Frutos Silvestres',
+    price: 2.8,
+    description: '750 mL',
     longDesc:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    img: require('../../assets/laranja.jpg'),
+    img: require('../../assets/FrutosSilvestres_750.jpg'),
   },
   {
     id: 'qigc',
-    name: 'Water',
-    price: 1,
-    description: 'Hidrate yourself',
+    name: 'Gengibre + Limão',
+    price: 2.8,
+    description: '750 mL',
     longDesc:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    img: require('../../assets/h2o.jpg'),
+    img: require('../../assets/GengibreLimao_750.jpg'),
   },
   {
     id: 'pn2i',
-    name: 'Straw',
-    price: 3,
-    description: 'MEE',
+    name: 'Hibisco',
+    price: 2.8,
+    description: '750 mL',
     longDesc:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    img: require('../../assets/straw.jpg'),
+    img: require('../../assets/Hibisco_750.jpg'),
   },
   {
     id: 'z308',
-    name: 'Green Juice',
-    price: 6,
-    description: 'Detox juice',
+    name: 'Original',
+    price: 2.8,
+    description: '750 mL',
     longDesc:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    img: require('../../assets/broculo.jpg'),
+    img: require('../../assets/Original_750.jpg'),
+  },
+  {
+    id: 'ksal',
+    name: 'Pack Experiência',
+    price: 4.99,
+    description: '4 x 250 mL',
+    longDesc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    img: require('../../assets/Pack4.jpg'),
+  },
+  {
+    id: '19pj',
+    name: 'Kit Do It Yourself',
+    price: 25,
+    description: '1 unidade',
+    longDesc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    img: require('../../assets/packDIY.jpg'),
   },
 ];
 
