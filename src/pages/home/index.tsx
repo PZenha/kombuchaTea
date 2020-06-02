@@ -37,6 +37,16 @@ const Home: FC = () => {
                         </Link>
                     </Card>
                 </div>
+
+                <div className="quemSomos-container">
+                    <h1>Quem somos</h1>
+                    <span>
+                        A Kombuchai Tea nasceu de um projeto no âmbito de uma unidade curricular no fim de uma Licenciatura em Biorrecursos em simbiose com a ânsia de dar a conhecer ao mercado mais jovem o nosso produto, a kombucha.<br></br>
+                        Formada por duas sócias gerentes Inês e Catarina, duas colegas de curso, registaram a empresa como Kombuchai Tea, Lda , sendo esta uma sociedade por quotas.<br></br>
+                        Esta empresa não se baseia só no âmbito de vendermos o nosso produto final, mas também de comercializar todo um kit para que possam fazer gerar a kombucha na vossa própria casa.<br></br>
+                        Kombuchai Tea pretende agregar todo o sentido da palavra sustentabilidade com o respeito pelo meio ambiente favorecendo simultaneamente a nossa saúde e a de quem consome esta bebida.
+                </span>
+                </div>
             </div>
         </>
     )

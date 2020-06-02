@@ -5,7 +5,7 @@ export const PRODUCTS = [
     price: 1.4,
     description: '250 mL',
     longDesc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'O Kombuchai Tea é uma bebida de chá fermentada pasteurizada que é probiótica, energizante e refrescante. As folhas naturais da planta Camellia sinensis de chá verde conferem a este refrigerante fermentado e levemente efervescente um sabor único.',
     img: require('../../assets/Original_250.jpg'),
   },
   {
@@ -14,7 +14,7 @@ export const PRODUCTS = [
     price: 1.4,
     description: '250 mL',
     longDesc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Bebida de chá verde naturalmente fermentada com sabor a amoras, framboesas e mirtilos, derivados de uma produção biológica nacional, que confere a este refrigerante fermentado e levemente efervescente o seu sabor especial.',
     img: require('../../assets/FrutosSilvestres_250.jpg'),
   },
   {
@@ -23,7 +23,7 @@ export const PRODUCTS = [
     price: 1.4,
     description: '250 mL',
     longDesc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Bebida de chá verde naturalmente fermentada com sabor a gengibre e limão. A combinação harmoniosa de gengibre e limão dá a este refrigerante fermentado e ligeiramente efervescente um sabor incomparável.',
     img: require('../../assets/GengibreLimao_250.jpg'),
   },
   {
@@ -32,7 +32,7 @@ export const PRODUCTS = [
     price: 1.4,
     description: '250 mL',
     longDesc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Bebida de chá verde naturalmente fermentada com sabor a hibisco. Produzido seguindo técnica milenar, o nosso kombucha de hibisco nasce da fermentação do chá verde com infusão de sépalas da flor Hibiscus sabdariffa, que confere a este refrigerante fermentado e levemente efervescente uma bebida cheia de sabor.',
     img: require('../../assets/Hibisco_250.jpg'),
   },
   {
@@ -41,7 +41,7 @@ export const PRODUCTS = [
     price: 2.8,
     description: '750 mL',
     longDesc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Bebida de chá verde naturalmente fermentada com sabor a amoras, framboesas e mirtilos, derivados de uma produção biológica nacional, que confere a este refrigerante fermentado e levemente efervescente o seu sabor especial.',
     img: require('../../assets/FrutosSilvestres_750.jpg'),
   },
   {
@@ -50,7 +50,7 @@ export const PRODUCTS = [
     price: 2.8,
     description: '750 mL',
     longDesc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Bebida de chá verde naturalmente fermentada com sabor a gengibre e limão. A combinação harmoniosa de gengibre e limão dá a este refrigerante fermentado e ligeiramente efervescente um sabor incomparável.',
     img: require('../../assets/GengibreLimao_750.jpg'),
   },
   {
@@ -59,7 +59,7 @@ export const PRODUCTS = [
     price: 2.8,
     description: '750 mL',
     longDesc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Bebida de chá verde naturalmente fermentada com sabor a hibisco. Produzido seguindo técnica milenar, o nosso kombucha de hibisco nasce da fermentação do chá verde com infusão de sépalas da flor Hibiscus sabdariffa, que confere a este refrigerante fermentado e levemente efervescente uma bebida cheia de sabor.',
     img: require('../../assets/Hibisco_750.jpg'),
   },
   {
@@ -68,7 +68,7 @@ export const PRODUCTS = [
     price: 2.8,
     description: '750 mL',
     longDesc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'O Kombuchai Tea é uma bebida de chá fermentada pasteurizada que é probiótica, energizante e refrescante. As folhas naturais da planta Camellia sinensis de chá verde conferem a este refrigerante fermentado e levemente efervescente um sabor único.',
     img: require('../../assets/Original_750.jpg'),
   },
   {
@@ -77,7 +77,7 @@ export const PRODUCTS = [
     price: 4.99,
     description: '4 x 250 mL',
     longDesc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'O pack experiência é a nossa explosão de energia e sabor! Com 4 variedades de sabores, para uma experiência única e inesquecível deste refrigerante',
     img: require('../../assets/Pack4.jpg'),
   },
   {
@@ -86,7 +86,7 @@ export const PRODUCTS = [
     price: 25,
     description: '1 unidade',
     longDesc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Este kit tem tudo o que você precisa para começar a preparar seu próprio kombucha em casa. O kit contém:  1 frasco fermentador de 3L, um SCOBY biológico e um pouco de starter (atuando como um inóculo), um chá verde também biológico, 100 g de açúcar de produção biológica e um termómetro para colar ao frasco para controlo da temperatura.',
     img: require('../../assets/packDIY.jpg'),
   },
 ];

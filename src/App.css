@@ -23,3 +23,13 @@
 #header menuitem {
   float: right;
 }
+
+.footer-socialmedia {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.footer-socialmedia div {
+  margin: 5px;
+}

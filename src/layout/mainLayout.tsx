@@ -1,6 +1,7 @@
 import React, { SFC } from "react"
 import { RouteProps, Link } from "react-router-dom"
 import { Layout, Menu } from "antd"
+import SocialComponent from "../components/social-media"
 
 const { Header, Content, Footer } = Layout
 const { SubMenu } = Menu
@@ -17,6 +18,7 @@ const MainLayout = (Component: React.ComponentType<any>) => ({ children }: Route
                 </Content>
                 <Footer style={{ textAlign: 'center', backgroundColor: 'white' }}>
                     Kombucha
+                    <SocialComponent />
                 </Footer>
             </Layout>
         </>
@@ -28,7 +30,7 @@ const MainLayout = (Component: React.ComponentType<any>) => ({ children }: Route
 const Head: SFC = () => {
     return (
         <>
-            <Header id="header">
+            <Header id="header" style={{ position: "sticky", top: 0, zIndex: 1 }}>
                 <Link to="/"
                     className="logo"
                     style={{
@@ -50,7 +52,7 @@ const Head: SFC = () => {
                 <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["home"]} >
 
                     <Menu.Item key="Quem somos" >
-                        <Link to="/quemsomos">
+                        <Link to="/">
                             Quem Somos
                         </Link>
                     </Menu.Item>
