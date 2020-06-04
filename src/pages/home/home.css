@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
 .home {
 }
@@ -22,8 +22,9 @@
 
 .quemSomos-container span {
   text-align: justify;
-  font-family: 'Vidaloka', serif;
-  font-size: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  color: black;
 }
 
 .quemSomos-container h1 {

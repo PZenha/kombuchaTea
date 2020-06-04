@@ -9,14 +9,14 @@ const { SubMenu } = Menu
 const MainLayout = (Component: React.ComponentType<any>) => ({ children }: RouteProps) => {
     return (
         <>
-            <Layout className="layout">
+            <Layout className="layout" style={{ backgroundColor: "white" }}>
                 <Head />
                 <Content>
                     <div className="site-layout-content">
                         <Component>{children}</Component>
                     </div>
                 </Content>
-                <Footer style={{ textAlign: 'center', backgroundColor: 'white' }}>
+                <Footer style={{ textAlign: 'center', backgroundColor: '#e6e6e6', marginTop: "30px" }}>
                     Kombucha
                     <SocialComponent />
                 </Footer>
