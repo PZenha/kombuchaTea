@@ -33,3 +33,21 @@
 .footer-socialmedia div {
   margin: 5px;
 }
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,10 +1,14 @@
-import React, { SFC } from "react"
+import React, { SFC, useRef } from "react"
 import { RouteProps, Link } from "react-router-dom"
 import { Layout, Menu } from "antd"
 import SocialComponent from "../components/social-media"
+import * as Scroll from "react-scroll"
 
 const { Header, Content, Footer } = Layout
 const { SubMenu } = Menu
+const scroll = Scroll.animateScroll
+
+const contactEndRef = useRef<null | HTMLElement | any>(null)
 
 const MainLayout = (Component: React.ComponentType<any>) => ({ children }: RouteProps) => {
     return (
@@ -16,9 +20,17 @@ const MainLayout = (Component: React.ComponentType<any>) => ({ children }: Route
                         <Component>{children}</Component>
                     </div>
                 </Content>
-                <Footer style={{ textAlign: 'center', backgroundColor: '#e6e6e6', marginTop: "30px" }}>
-                    Kombucha
+                <Footer style={{ textAlign: 'center', backgroundColor: '#e6e6e6', marginTop: "30px" }} ref={contactEndRef}>
+                    <div className="footer-content">
+                    <Contacts />
+                    <div className="footer-title">
+                    KOMBUCHAI TEA <br></br>
+                    Social Network
                     <SocialComponent />
+                    </div>
+                    </div>
+                    
+                    
                 </Footer>
             </Layout>
         </>
@@ -51,7 +63,7 @@ const Head: SFC = () => {
 
                 <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["home"]} >
 
-                    <Menu.Item key="Quem somos" >
+                    <Menu.Item key="Quem somos" onClick={() => scroll.scrollToBottom()}>
                         <Link to="/">
                             Quem Somos
                         </Link>
@@ -88,15 +100,28 @@ const Head: SFC = () => {
                         </Link>
                     </Menu.Item>
 
-                    <Menu.Item key="contactos" >
-                        <Link to="/contactos">
+                    <Menu.Item key="contactos" onClick={() => scroll.scrollToBottom()}>
+                        
                             Contactos
-                        </Link>
+                        
                     </Menu.Item>
 
 
                 </Menu>
             </Header>
+        </>
+    )
+}
+
+const Contacts: SFC = () =>{
+    return(
+        <>
+        <div className="contacts">
+            <span>Contactos</span>
+            <span>Email: kombuchaitea@sapo.pt</span>
+            <span>Telemóvel: 9254164846</span>
+            <span>Morada: Rua S.Sebastião - 300 Porto</span>
+        </div>
         </>
     )
 }
